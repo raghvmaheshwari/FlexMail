@@ -88,14 +88,14 @@ const Home = () => {
     return (
         <div>
             {
-                <div style={{ minHeight: '92vh' }}>
+                <div style={{ npinHeight: '92vh' }}>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '80px', flexDirection: 'column' }}>
                         <h3>Flexmail</h3>
                         <h5>A customizable temporary email generator</h5>
                         <div style={{ marginBottom: '80px', marginTop: '10px' }}>
-                            <GitHubButton href="https://github.com/sambhavsaxena/flexmail" data-icon="octicon-star" data-show-count="true" aria-label="Star sambhavsaxena/flexmail on GitHub">Star</GitHubButton>
+                            <GitHubButton href="https://github.com/raghvmaheshwari/FlexMail" data-icon="octicon-star" data-show-count="true" aria-label="Star sambhavsaxena/flexmail on GitHub">Star</GitHubButton>
                             {' '}
-                            <GitHubButton href="https://github.com/sambhavsaxena/flexmail/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork sambhavsaxena/flexmail on GitHub">Fork</GitHubButton>
+                            <GitHubButton href="https://github.com/raghvmaheshwari/FlexMail/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork sambhavsaxena/flexmail on GitHub">Fork</GitHubButton>
                         </div>
                         <div className="text-center">Enter your identifier and select your domain to fetch mails.</div>
                     </div>
